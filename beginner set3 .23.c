@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+int main()
 {
 	int a[5],i,n,smallest;
 	scanf("%d",&n);
@@ -10,4 +10,5 @@ int main(void)
 	if(a[i]<smallest)
 	smallest=a[i];
 	printf("%d is the smallest number",smallest);
+	return 0;
 }
